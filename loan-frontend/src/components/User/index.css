@@ -1,0 +1,247 @@
+.UserContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserTextTop{
+    color: #064921;
+    font-size: 15px;
+}
+
+
+.UserTextTops{
+    color: #0A512FB2;
+    font-size: 15px;
+}
+
+.MainContainerUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.MainContainerUser1{
+    background-color:#EFEFEF;
+    min-height: 100vh;
+    width: 98.7vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.LinkElement{
+    text-decoration: none;
+}
+
+.MainContainerUser2{
+    height: 10vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UserTextIcon{
+    background-color: #6B9908;
+    height: 7vh;
+    width: 4vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.MainContainerUser3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 7vh;
+    width: 10vw;
+}
+
+.MainContainerUser4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.DeficitText{
+    color: #6B9908;
+    font-size: 10px;
+}
+
+.DeficitTexts{
+    color: #6B9908;
+    font-size: 14px;
+    font-weight: bold;
+}
+.MainContainerUser5{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Loan_btn{
+    background-color: #6B9908;
+    height: 5vh;
+    width: 10vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid #6B9908;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px grey;
+    cursor: pointer;
+}
+
+.MainContainerUserSecond1{
+    height: 7vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 8px;
+    border-bottom: 2px solid grey;
+}
+
+.BorrowCashText{
+    background-color: #6B99081A;
+    height: 7vh;
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.TransactText{
+    background-color: #FFFFFF;
+    height: 7vh;
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+}
+
+.CastText{
+    background-color: #FFFFFF;
+    height: 7vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-bottom-right-radius:8px;
+    border-left: 1px solid black;
+}
+
+.MainContainerUserThird{
+    background-color: #FFFFFF;
+    height: 6vh;
+    width: 40vw;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 8px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SearchIcon{
+    height: 6vh;
+    width: 5vw;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchInput{
+    height: 6vh;
+    width: 35vw;
+    background-size: cover;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+    border: none;
+    cursor:text;
+    color: #696969;
+}
+
+.SearchInput::placeholder{
+    color: #696969;
+    font-weight: bold;
+}
+
+.LoanListContainer1{
+    background-color: #fff;
+    height: 100vh;
+    width: 70vw;
+    background-size: cover;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 0px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.SortText{
+    color: #4B506D;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.LoanListContainer2{
+    height: 10vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LoanListContainer3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.LoanListContainer4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.AppliedText{
+    font-size: 20px;
+    padding-left: 10px;
+}

@@ -1,0 +1,237 @@
+.MainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderContainer{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.HeaderContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreditappHead{
+    color: #074418;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.AdminHead{
+    color: #074418;
+    font-size: 15px;
+}
+
+.HeaderContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.FontIcon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.HeaderContainer3{
+    background-color: #132E1A;
+    min-height: 100vh;
+    width:20vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderContainer4{
+    background-color: #C4C4C41F;
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.UserHead{
+    color: #ADCF1A;
+}
+
+
+.Header_ul{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header_li{
+    background-color: #0A512F6B;
+    height: 7vh;
+    width: 20vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.LiText{
+    color: #fff;
+    font-size: 15px;
+}
+
+.LiIcons{
+    margin-left: 20px;
+    margin-right:10px;
+}
+
+.Header_li:hover{
+    background-color: #0A512FE8;
+    height: 7vh;
+    width: 20vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+    cursor:pointer;
+}
+
+.Header_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderContainer5{
+    background-color: #DFDFDF;
+    min-height: 100px;
+    width: 80vw;
+    background-size: cover;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+    margin-left:5px;
+}
+
+.DashHead{
+    color: #074418;
+    font-size: 25px;
+}
+
+.DashHeadSpan{
+    color: #074418;
+    font-size: 15px;
+}
+
+.HeaderContainer66{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.HeaderContainer7{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height: 10vh;
+    width: 13vw;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.HeaderContainerIcon{
+    background-color: #0A512F;
+    height: 10vh;
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderContainerText{
+    background-color: #fff;
+    height: 10vh;
+    width: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.TextHead{
+    color:#000000;
+    font-size: 19px;
+    line-height: 1%;
+}
+
+.TextPara{
+    color:#000000;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1%;
+}
+
+.LinkElement{
+    text-decoration: none;
+}
+
+
+.User_div_1 table{
+    margin-top: 30px;
+    width:100%;
+    border-collapse: collapse;
+}
+
+.User_div_1 table thead th{
+    font-size: 20px;
+    font-weight: 500;
+    padding:10px;
+}
+
+.User_div_1 table tbody td{
+    text-align: center;
+    padding:10px;
+    border-collapse: collapse;
+}
+.bodyS{
+    padding-bottom: 10px;
+}
+.tdHeading{
+    color: #5c5951;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.Pending-btn{
+    color: #fff;
+    font-size:15px;
+    background-color: #FEC400;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 24px;
+    border: 2px solid #FEC400;
+    margin-right: 10px;
+}

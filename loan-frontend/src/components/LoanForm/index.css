@@ -1,0 +1,111 @@
+.MainContainerLoanForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.MainContainerLoanForm1{
+    background-color: #111111;
+    height: 1530px;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainerLoanForm2{
+    background-color: #FFFFFF;
+    height: 1305px;
+    width: 1106px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ApplyLoan{
+    color: #000000;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.MainContainerLoanForm3{
+    height: 30vh;
+    width: 80vw;
+    margin-left:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainerLoanForm4{
+    height: 30vh;
+    width: 35vw;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.FullNameText{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.LoanFormInput{
+    height: 10vh;
+    width: 30vw;
+    border-radius: 8px;
+    border: 1px solid hsla(115, 92%, 15%, 0.302);
+    outline: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.LoanFormInput::placeholder{
+    color: #D2D2D2;
+}
+
+.MainContainerLoanForm33{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.MainContainerLoanForm34{
+    height: 40vh;
+    width: 80vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.MainChartsContainer{
+    padding-left: 80px;
+}
+
+.ChartText{
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Submit_btn{
+    background-color: #0A5210;
+    height: 8vh;
+    width: 15vw;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+}

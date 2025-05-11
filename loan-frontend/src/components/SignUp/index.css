@@ -1,0 +1,195 @@
+.Sign_Background{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.Register_page{
+    background-image: url("https://i.pinimg.com/736x/a8/86/b9/a886b905cb761e8a11595bcafdd7cb96.jpg");
+    height: 100vh;
+    width: 50vw;
+    background-size: cover;
+}
+
+.Sign_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/736x/b1/75/fd/b175fd1622ff657f4084133982c273f6.jpg');
+    height: 100vh;
+    width: 50vw;
+    background-size: cover;    
+}
+
+.Sign_form_1{
+    background-color: transparent;
+    height: 80vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+}
+
+.Sign_head{
+    text-align: center;
+    padding-top: 10px;
+}
+.Span_head {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    top: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+    text-shadow: 0 1px 0 #b7b7b7, 0 2px 0 #b7b7b7, 0 3px 0 #b7b7b7
+    0 4px 0 #b7b7b7, 0 5px 0 #b7b7b7,
+    0 6px 0 transparent,
+    0 7px 0 transparent,
+    0 8px 0 transparent,
+    0 9px 0 transparent,
+    0 10px 10px rgba(0, 0, 0.5);
+    animation: bounce 0.4s ease infinite alternate;
+}
+
+.Login_head Span_head:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+.Login_head Span_head:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+.Login_head Span_head:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+.Login_head Span_head:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+.Login_head Span_head:nth-child(6){
+    animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+        0 3px 0 #ccc,
+        0 4px 0 #ccc,
+        0 5px 0 #ccc,
+        0 6px 0 #ccc,
+        0 7px 0 #ccc,
+        0 8px 0 #ccc,
+        0 9px 0 #ccc,
+        0 60px 30px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.form_Sign_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Username_Sign_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 24vw;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background-color:transparent;
+    border-radius: 24px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.forms_sign_input{
+    padding-left: 20px;
+    background-color: transparent;
+    height: 5vh;
+    width: 20vw;
+    background-size: cover;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.forms_sign_input::placeholder{
+    color: #fff;
+    background-color: transparent;
+}
+
+.Password_div_sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 24vw;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-radius: 24px;
+    padding-right: 20px;
+}
+
+.Checkbox_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 25vw;
+    padding-top: 20px;
+}
+.Checkbox_div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Checkbox_input{
+    cursor: pointer;
+}
+
+.RememberHead{
+    color: #fff;
+}
+
+.Login_button{
+    background-color: #ffffff;
+    height: 6vh;
+    width: 26vw;
+    background-size: cover;
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+    border:none;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.RegistereHead{
+    color: #fff;
+
+}
+
+.RegisterSpan{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.LinkRegister{
+    color: #fff;
+    text-decoration: none;
+}
